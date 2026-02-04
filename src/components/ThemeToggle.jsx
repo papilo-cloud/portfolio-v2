@@ -1,6 +1,9 @@
-import React from 'react'
+import { useTheme } from '../hooks/useTheme';
 
 export function ThemeToggle({onClick}) {
+
+    const { t, mode, setMode } = useTheme();
+    
   return (
     <button 
         onClick={onClick}
