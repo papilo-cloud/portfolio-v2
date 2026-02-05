@@ -1,5 +1,5 @@
 import { GlobalStyles } from "./components/GlobalStyles";
-import { Nav } from "./components/Nav";
+import { Nav } from "./components/nav/Nav";
 import { Hero } from "./components/Hero";
 import { About } from "./components/About";
 import { Skills } from "./components/Skills";
