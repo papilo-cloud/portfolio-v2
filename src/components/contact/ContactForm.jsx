@@ -74,6 +74,11 @@ export default function ContactForm({onSent}) {
                 onFocus={e => e.target.style.borderColor = t.accent}
                 onBlur={e => e.target.style.borderColor = t.border} 
                 required />
+            {error && (
+                <span style={{ color: "red", fontSize: 13, fontFamily: "'IBM Plex Mono', monospace" }}>
+                    {error}
+                </span>
+            )}
             <button 
                 type='submit'
                 disabled={sending} 
