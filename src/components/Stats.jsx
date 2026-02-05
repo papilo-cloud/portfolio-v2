@@ -6,9 +6,9 @@ export default function Stats() {
     const {t} = useTheme();
     
     const stats = [
-        { val: "3+", label: "Years Frontend" },
-        { val: "1+", label: "Year Web3" },
-        { val: "∞", label: "Contracts Audited" },
+        { val: "3+", label: "Years Building" },
+        { val: "20+", label: "Contracts Written" },
+        { val: "6", label: "Audits Completed" },
     ];
 
   return (

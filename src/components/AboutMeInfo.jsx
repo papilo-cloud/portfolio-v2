@@ -15,16 +15,14 @@ export function AboutMeInfo() {
             About Me
         </h2>
         <p style={{ color: t.textAccent, fontSize: 15, lineHeight: 1.8, marginTop: 18 }}>
-            I started in frontend — React components, design systems, performance
-            optimization. After three years building UIs, I went deeper: into 
-            the protocols, the contracts, the attack vectors. Now I sit at the
-            intersection: I can read a Solidity audit report <em>and</em> ship 
-            the dashboard that visualizes its findings.
+            I'm a fullstack Web3 developer with three years building React applications and one year 
+            specializing in DeFi security. I write smart contracts in Solidity, build the frontends 
+            that interact with them, and audit both my own code and others' for vulnerabilities.
         </p>
         <p style={{ color: t.textAccent, fontSize: 15, lineHeight: 1.8, marginTop: 12 }}>
-            My focus is Web3 security tooling — making it easier for developers 
-            to understand, test, and defend DeFi protocols. I write about it, 
-            build open-source tools for it, and consult on it.
+            My security focus emerged from building — after shipping contracts that handle real value, 
+            you develop a paranoia for edge cases. Now I audit DeFi protocols, hunt for flash loan 
+            attacks, oracle manipulation, and reentrancy bugs, and write about what I find.
         </p>
     </div>
   )

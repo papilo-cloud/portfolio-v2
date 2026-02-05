@@ -67,8 +67,8 @@ export function Hero() {
             fontFamily: "'Syne', sans-serif",}}>
             <span style={{ color: t.text }}>Building </span>
             <span style={{ color: t.accent }}>secure</span>
-            <span style={{ color: t.text }}> Web3</span><br />
-            <span style={{ color: t.text }}>infrastructure.</span>
+            <span style={{ color: t.text }}> DeFi</span><br />
+            <span style={{ color: t.text }}>applications.</span>
         </h1>
 
         <p style={{
@@ -76,9 +76,8 @@ export function Hero() {
             animation: vis ? "fadeUp 0.7s 0.12s cubic-bezier(.22,1,.36,1) both" : "none",
             fontFamily: "'Syne', sans-serif",
         }}>
-            Web3 security engineer with 3 years in frontend and a deep 
-            focus on DeFi protocol safety. I audit smart contracts, build 
-            developer tools, and write about the internals.
+            Fullstack Web3 developer and security auditor. I write Solidity smart contracts, 
+            build React frontends, and audit DeFi protocols for vulnerabilities.
         </p>
 
         <div style={{ marginTop: 34, display: "flex", gap: 14, flexWrap: "wrap", 
