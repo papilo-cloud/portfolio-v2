@@ -1,26 +1,26 @@
 export const projects = [
   {
-    title: "DeFi Flash Loan Guard",
-    desc: `A real-time monitoring system that detects and flags suspicious 
-          flash loan patterns across major DeFi protocols. Built with event-stream
-          processing and a custom alert engine.`,
-    tags: ["Solidity", "Node.js", "Web3.js", "Security"],
+    title: "DeFi Lending Protocol",
+    desc: "A peer-to-pool lending market with dynamic interest rates and liquidation mechanics. Built the full stack: Solidity contracts with comprehensive testing and a React frontend for depositing, borrowing, and monitoring health factors.",
+    tags: ["Solidity", "React", "DeFi", "Hardhat"],
     highlight: true,
   },
   {
-    title: "TWAP Oracle Toolkit",
-    desc: `Developer tooling for consuming and validating Uniswap V2/V3 TWAP 
-          oracles. Includes manipulation-cost calculators, window-size advisors, 
-          and a live dashboard.`,
-    tags: ["React", "Solidity", "Express.js", "DeFi"],
+    title: "AMM Security Audit",
+    desc: "Conducted a comprehensive security audit of a Uniswap V2 fork, identifying critical vulnerabilities in the TWAP oracle implementation and price manipulation attack vectors. Delivered a detailed report with remediation steps.",
+    tags: ["Security", "Solidity", "DeFi", "Auditing"],
     highlight: true,
   },
   {
-    title: "Smart Contract Audit CLI",
-    desc: `A CLI tool that runs static analysis on Solidity contracts, 
-          flags common vulnerability patterns (reentrancy, access control, 
-          oracle manipulation), and outputs structured reports.`,
-    tags: ["Node.js", "Solidity", "Security"],
+    title: "NFT Marketplace",
+    desc: "Fully on-chain NFT marketplace with ERC-721 support, Dutch auctions, and royalty enforcement. Built smart contracts and a React frontend with wallet integration and real-time event listening.",
+    tags: ["Solidity", "React", "Web3.js", "NFTs"],
+    highlight: false,
+  },
+  {
+    title: "Staking Dashboard",
+    desc: "React-based dashboard for a yield farming protocol. Displays real-time APYs, user positions, reward calculations, and transaction history. Integrated with Ethers.js for contract interactions.",
+    tags: ["React", "Ethers.js", "Web3", "DeFi"],
     highlight: false,
   },
 ];
