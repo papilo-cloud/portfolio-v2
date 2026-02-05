@@ -72,7 +72,7 @@ export function Nav() {
         </nav>
         {/* Mobile Menu */}
         {menuOpen && (
-            <MobileMenuOverlay links={links} mobileOpen={menuOpen} handleLinkClick={handleLinkClick}>
+            <MobileMenuOverlay links={links} mobileOpen={menuOpen} handleLinkClick={handleLinkClick} isMobile={isMobile}>
                 <MobileThemeToggle onClick={handleModeToggle} />
             </MobileMenuOverlay>
         )}

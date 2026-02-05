@@ -1,6 +1,6 @@
 import { useTheme } from '../../hooks/useTheme';
 
-export function MobileMenuOverlay({links, mobileOpen, handleLinkClick, children}) {
+export function MobileMenuOverlay({links, mobileOpen, handleLinkClick, children, isMobile}) {
     const { t, mode } = useTheme();
   return (
     <div style={{
@@ -12,7 +12,7 @@ export function MobileMenuOverlay({links, mobileOpen, handleLinkClick, children}
         background: mode === "dark" ? "rgba(13,14,18,0.97)" : "rgba(244,242,238,0.97)",
         backdropFilter: "blur(12px)",
         zIndex: 99,
-        display: mobileOpen ? "flex" : "none",
+        display: mobileOpen && isMobile ? "flex" : "none",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
