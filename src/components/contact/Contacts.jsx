@@ -12,8 +12,6 @@ export function Contact() {
 
   const handleResend = () => {
       setSent(false);
-      setEmail("");
-      setMsg("");
   }
 
   return (
