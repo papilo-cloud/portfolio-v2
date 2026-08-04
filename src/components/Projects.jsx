@@ -63,9 +63,7 @@ export function Projects() {
                 }}>{tag}</span>
               ))}
             </div>
-          </div>
-        ))}
-        <div
+                    <div
           style={{
             display: "flex",
             gap: 12,
@@ -102,6 +100,10 @@ export function Projects() {
             </a>
           )}
         </div>
+          </div>
+          
+        ))}
+
       </div>
     </section>
   );
