@@ -65,6 +65,43 @@ export function Projects() {
             </div>
           </div>
         ))}
+        <div
+          style={{
+            display: "flex",
+            gap: 12,
+            marginTop: 20,
+          }}
+        >
+          {p.github && (
+            <a
+              href={p.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: t.accent,
+                textDecoration: "none",
+                fontWeight: 600,
+              }}
+            >
+              GitHub →
+            </a>
+          )}
+
+          {p.demo && (
+            <a
+              href={p.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: t.accent,
+                textDecoration: "none",
+                fontWeight: 600,
+              }}
+            >
+              Live Demo ↗
+            </a>
+          )}
+        </div>
       </div>
     </section>
   );
